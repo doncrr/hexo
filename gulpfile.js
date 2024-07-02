@@ -1,5 +1,6 @@
-var gulp = require('gulp');
+function defaultTask(cb) {
+  // place code for your default task here
+  cb();
+}
 
-gulp.task('default', function() {
-  // 将你的默认的任务代码放在这
-});
+exports.default = defaultTask
