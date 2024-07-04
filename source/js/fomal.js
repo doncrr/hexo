@@ -1,4 +1,4 @@
-/* 阅读进度 start */
+﻿/* 阅读进度 start */
 document.addEventListener('pjax:complete', function () {
   window.onscroll = percent;
 });
@@ -54,7 +54,7 @@ function tonav() {
     position = scroll;
   });
   //修复没有弄右键菜单的童鞋无法回顶部的问题
-  document.getElementById("page-name").innerText = document.title.split(" | Fomalhaut🥝")[0];
+  document.getElementById("page-name").innerText = document.title.split(" | Doncr")[0];
 }
 
 function scrollToTop() {
@@ -1113,14 +1113,14 @@ function changeMouseMode() {
 var now1 = new Date();
 
 function createtime1() {
-  var grt = new Date("08/09/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  var grt = new Date("02/07/2024 00:00:00"); //此处修改你的建站时间或者网站上线时间
   now1.setTime(now1.getTime() + 250);
   var days = (now1 - grt) / 1000 / 60 / 60 / 24;
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到Fomalhaut🥝の小家!`,
-    `Future is now 🍭🍭🍭`,
+    `欢迎来到Doncrの小家!`,
+    `愿你以渺小启程，以伟大结束 💖💖💖`,
     `
         
 ███████  ██████  ███    ███  █████  ██      ██   ██  █████  ██    ██ ████████ 
@@ -1133,7 +1133,7 @@ function createtime1() {
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2022 By Fomalhaut",
+    "©2024 By Doncr",
   ];
 
   setTimeout(
@@ -1172,7 +1172,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
+      "%c ⚡ Powered by Doncr %c 你正在访问Doncrの小家",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -3190,10 +3190,10 @@ function changeBg(s) {
 // 设置背景属性
 function setBg(s) {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: ${s};
-    --darkmode-bg: ${s};
-    --mobileday-bg: ${s};
-    --mobilenight-bg: ${s};
+    --default-bg: ${https://pixiv.re/115738312.jpg};
+    --darkmode-bg: ${https://pixiv.re/115738312.jpg};
+    --mobileday-bg: ${https://pixiv.re/115738312.jpg};
+    --mobilenight-bg: ${https://pixiv.re/115738312.jpg};
   }`;
 }
 
@@ -3489,7 +3489,7 @@ function createWinbox() {
 <h3>8. 自定义背景</h3>
 {% folding cyan, 设置自定义背景 %}
 <p><center>
-<input type="text" id="pic-link" size="70%" maxlength="1000" placeholder="请输入有效的图片链接，如 https://source.fomal.cc/img/home_bg.webp">
+<input type="text" id="pic-link" size="70%" maxlength="1000" placeholder="https://pixiv.re/115738312.jpg">
 </center></p>
 <p><center>
 <button type="button" onclick="getPicture()" style="background:var(--theme-color);width:35%;padding: 5px 0px 7px 0px;border-radius:30px;color:white;line-height:2;">🌈切换背景🌈</button>

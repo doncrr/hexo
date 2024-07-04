@@ -1,4 +1,4 @@
-/* root伪类指定全局颜色 */
+﻿/* root伪类指定全局颜色 */
 :root {
   --blue-custom: #5ea6e5;
   --loading-color: rgba(207, 246, 247, 0.92);
@@ -18,6 +18,10 @@
   --btn-bg: var(--theme-color) !important;
   --scrollbar-color: var(--theme-color) !important;
   --border-style: 1px solid rgba(169, 169, 169, 0.7);
+  --trans-light: rgba(255, 255, 255, 1);
+  --trans-dark: rgba(25, 25, 25, 1);
+  --border-style: 1px solid rgb(169, 169, 169);
+  --backdrop-filter: blur(5px) saturate(150%);
   /* 代码框行数背景色 */
   --hlnumber-bg: #282c34;
   /* 代码框顶部背景色 */
@@ -220,7 +224,7 @@ center#name-container {
 
 /* 首页文章卡片 */
 #recent-posts > .recent-post-item {
-  background: var(--trans-light);
+  background: rgba(255, 255, 255, 0.88);
   backdrop-filter: var(--backdrop-filter);
   border-radius: 25px;
   border: var(--border-style);
@@ -228,7 +232,7 @@ center#name-container {
 
 /* 首页侧栏卡片 */
 #aside-content .card-widget {
-  background: var(--trans-light);
+  background: rgba(255, 255, 255, 0.88);
   backdrop-filter: var(--backdrop-filter);
   border-radius: 18px;
   border: var(--border-style);
@@ -239,7 +243,7 @@ center#name-container {
 div#post,
 div#page,
 div#archive {
-  background: var(--trans-light);
+  background: rgba(255, 255, 255, 0.88);
   backdrop-filter: var(--backdrop-filter);
   border: var(--border-style);
   border-radius: 20px;
@@ -1199,7 +1203,7 @@ button#go-up:hover #percent {
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/springBg.png);
+  background-image: url(https://s3.bmp.ovh/imgs/2024/07/03/e89ea82cfa7533a6.jpg);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
