@@ -13,12 +13,14 @@ date: 2022-08-10 16:05:11
 
 这个网站是用github部署的，所以访问会有点慢，用的是hexo，主题为butterfly，主题配置套用的Fomalhaut大佬的开源项目
 
+很多功能如评论，音乐，动态等都未完善，但不想再捣鼓了，所以就这样吧，凑活凑活用用就行（开摆）
+
 ### 相关链接
 
-{% referfrom '[1]'Fomalhaut的开源主题'','https://github.com/fomalhaut1998/hexo-theme-Fomalhaut' %}
-{% referfrom '[1]'Hexo官方文档'','https://hexo.io/zh-cn/' %}
-{% referfrom '[1]'Butterfly官方文档'','https://butterfly.js.org/link/' %}
-{% referfrom '[1]'我的hexo源码仓库'','https://github.com/doncrr/doncrr.github.io' %}
+[Fomalhaut的开源主题](https://github.com/fomalhaut1998/hexo-theme-Fomalhaut)
+[Hexo官方文档](https://hexo.io/zh-cn/)
+[Butterfly官方文档](https://butterfly.js.org/link/)
+[我的hexo源码仓库](https://github.com/doncrr/doncrr.github.io)
 
 
 
