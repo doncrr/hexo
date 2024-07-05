@@ -1,26 +1,25 @@
----
+﻿---
 title: 关于
 date: 2022-08-10 16:05:11
 ---
 
 {% note warning modern %}<b>非商免字体、网图</b>等资源未经授权仅限个人使用，不得用于商业用途。本站平时仅用于交流和学习，如涉及侵权请联系站长删除对应资源，谢谢！ —— 致版权方{% endnote %}
 
-## 0.网站自述视频🎬
+## 自述
 
-<div class="about_page">
-  <div align=center class="aspect-ratio">
-      <iframe src="https://player.bilibili.com/player.html?aid=474023258&&page=1&as_wide=1&high_quality=1&danmaku=0" 
-      scrolling="no" 
-      border="0" 
-      frameborder="no" 
-      framespacing="0" 
-      high_quality=1
-      danmaku=1 
-      allowfullscreen="true"> 
-      </iframe>
-  </div>
-</div>
+这里是Doncr，哦拿嬬口打油~
 
-<br>
+目前在读高一，平时爱好乱折腾（曾经自己编译过rec，改过内核，但也只是略知一二），玩玩gal，追追番，看动漫
+
+这个网站是用github部署的，所以访问会有点慢，用的是hexo，主题为butterfly，主题配置套用的Fomalhaut大佬的开源项目
+
+### 相关链接
+
+{% referfrom '[1]'Fomalhaut的开源主题'','https://github.com/fomalhaut1998/hexo-theme-Fomalhaut' %}
+{% referfrom '[1]'Hexo官方文档'','https://hexo.io/zh-cn/' %}
+{% referfrom '[1]'Butterfly官方文档'','https://butterfly.js.org/link/' %}
+{% referfrom '[1]'我的hexo源码仓库'','https://github.com/doncrr/doncrr.github.io' %}
+
+
 
 
