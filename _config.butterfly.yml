@@ -697,7 +697,7 @@ aside:
       link: https://github.com/doncrr
   card_announcement:
     enable: true
-    content: <center><b>米娜桑，扣你几把！！！！<br></center>这里是Doncr的博客，主要分享日常，游戏记录，折腾日记。有路西股内！！！！
+    content: <center><b>米娜桑，扣你几把！！！！<br></center>这里是Doncr的博客，主要分享日常，游戏记录，折腾日记。评论用不了，不想再弄了（笑）
   card_recent_post:
     enable: false
     limit: 3 # if set 0 will show all

@@ -299,3 +299,29 @@ magnet:
     index: 0
   temple_html: '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet">${temple_html_item}</div></div>'
   plus_style: ""
+# hexo-butterfly-categories-card
+# see https://akilar.top/posts/a9131002/
+categoryBar:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: / # 应用页面
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  column: odd # odd：3列 | even：4列
+  row: 1 #显示行数，默认两行，超过行数切换为滚动显示
+  message:
+    - descr: 夹子音，在那里装可爱，好想吐🤢
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover1.webp
+    - descr: 所以说你们二次元真恶心，嘻嘻😇
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover2.webp
+    - descr: 孩子不懂，乱捣鼓玩的
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover3.webp
+    - descr: 想似了。。。。。
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover4.webp
+    - descr: 奋斗白天，我要上大专🤓
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover5.webp
+    - descr: 
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover6.webp
+  custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css
