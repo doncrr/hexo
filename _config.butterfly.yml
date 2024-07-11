@@ -535,13 +535,13 @@ tag_ui: # 留空或 index
 # "#e4f4f6" "#efefef"
 background:
   #【必选】默认背景 
-  default: url(https://pic.imge.cc/2024/07/06/668929476e52f.jpg)
+  default: url(https://krseoul.imgtbl.com/i/2024/07/11/668fc5672eedc.jpg)
   #【可选】PC端夜间模式背景 
-  darkmode: url(https://pic.imge.cc/2024/07/06/668929476e52f.jpg)
+  darkmode: url(https://krseoul.imgtbl.com/i/2024/07/11/668fc5672eedc.jpg)
   #【可选】移动端日间默认背景 
-  mobileday: url(https://pic.imge.cc/2024/07/06/668929476e52f.jpg)
+  mobileday: url(https://krseoul.imgtbl.com/i/2024/07/11/668fc5672eedc.jpg)
   #【可选】移动端夜间模式背景 
-  mobilenight: url(https://pic.imge.cc/2024/07/06/668929476e52f.jpg)
+  mobilenight: url(https://krseoul.imgtbl.com/i/2024/07/11/668fc5672eedc.jpg)
 
 # Footer Background
 footer_bg: false
@@ -592,7 +592,7 @@ activate_power_mode:
 fireworks:
   enable: true
   zIndex: 9999 # -1 or 9999
-  mobile: false
+  mobile: true
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
 click_heart:
