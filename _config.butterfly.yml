@@ -10,8 +10,8 @@ menu:
   网站 || icon-wangye || faa-tada || hide:
     网站统计: /site/census/ || icon--tongjibiao || faa-tada
     文章统计: /site/echarts/ || icon-shujutongji1 || faa-tada
-    旧时光: /site/time/ || icon-xianxingshalou || faa-tada
   个人 || icon-maoliang || faa-tada || hide:
+    唠叨: /personal/essay/ || icon-qunliaotian || faa-tada
     相册: /personal/gallery/ ||icon-tubiaozhizuomoban || faa-tada
     关于: /personal/about/ || icon-paperplane || faa-tada
 
@@ -902,7 +902,7 @@ inject:
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"> # 常规css
     - <link rel="stylesheet" href="https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css"> # 引入组件库(f12)
     - <link rel="stylesheet" href="/css/_custom/custom.css">
-    - <link href="http://code.qkongtao.cn/cool-effect/live2d/vue_live2d/static/css/app.css" rel="stylesheet">
+    - <link rel="stylesheet" href="/css/bb.css">
     # 综合美化模块样式引入
     - <style id="themeColor"></style> # 主题色
     - <style id="rightSide"></style> # 侧边栏

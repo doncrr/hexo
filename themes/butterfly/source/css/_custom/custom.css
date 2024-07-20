@@ -224,29 +224,30 @@ center#name-container {
 
 /* 首页文章卡片 */
 #recent-posts > .recent-post-item {
-  background: rgba(255, 255, 255, 0.88);
-  backdrop-filter: var(--backdrop-filter);
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(36px) saturate(150%);
   border-radius: 25px;
   border: var(--border-style);
 }
 
 /* 首页侧栏卡片 */
 #aside-content .card-widget {
-  background: rgba(255, 255, 255, 0.88);
-  backdrop-filter: var(--backdrop-filter);
-  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.6);
   border: var(--border-style);
-  padding: 20px;
+  backdrop-filter: blur(36px) saturate(150%); 
+  padding: 10px 50px 10px 50px;
+  border-radius: 18px;  
 }
 
 /* 文章页、归档页、普通页面 */
 div#post,
 div#page,
 div#archive {
-  background: rgba(255, 255, 255, 0.88);
-  backdrop-filter: var(--backdrop-filter);
+  background: rgba(255, 255, 255, 0.6);
   border: var(--border-style);
-  border-radius: 20px;
+  backdrop-filter: blur(36px) saturate(150%); 
+  padding: 10px 50px 10px 50px;
+  border-radius: 20px;  
 }
 
 /* 导航栏颜色 */
