@@ -33,7 +33,7 @@ copy:
 #   icon: link || the description
 social:
   # Github: https://github.com/fomalhaut1998 || icon-github || faa-tada
-  # 微信: /assets/QRCode.jpg || icon-weixin || faa-tada
+  微信: https://tuchuang.voooe.cn/images/2024/07/25/Screenshot_2024-07-03-20-07-18-059_com.tencent.mm-edit.jpg || icon-weixin || faa-tada
   QQ: https://res.abeim.cn/api/qq/?qq=3026410250 || icon-QQ || faa-tada
   B站: https://space.bilibili.com/1938964536 || icon-bilibili || faa-tada
   163邮箱: mailto:zichang611@163.com || icon-youxiang || faa-tada
@@ -211,12 +211,9 @@ reward:
   enable: true
   coinAudio: https://npm.elemecdn.com/akilar-candyassets@1.0.36/audio/aowu.m4a
   QR_code:
-    - img: https://tuchuang.voooe.cn/images/2023/01/04/2.webp
+    - img: https://tuchuang.voooe.cn/images/2024/07/25/mm_facetoface_collect_qrcode_1721928939577.png
       link:
       text: 微信
-    - img: https://tuchuang.voooe.cn/images/2023/01/04/20f8e49805975b8f8.webp
-      link:
-      text: 支付宝
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -692,7 +689,7 @@ aside:
       link: https://github.com/doncrr
   card_announcement:
     enable: true
-    content: <center><b>米娜桑，扣你几把！！！！<br></center>这里是Doncr的博客，主要分享日常，游戏记录，折腾日记。评论用不了，不想再弄了（笑）
+    content: <center><b>米娜桑，扣你几把！！！！<br></center>这是Doncr的博客，随便发发文，发发颠。评论不想弄，因为我无人在意（笑），真想找我可以加QQ捏😋
   card_recent_post:
     enable: false
     limit: 3 # if set 0 will show all
