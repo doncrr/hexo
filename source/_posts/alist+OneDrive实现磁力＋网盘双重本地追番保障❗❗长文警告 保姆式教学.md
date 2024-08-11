@@ -13,8 +13,8 @@ description: 更新中。。。。。。。。。
 ---
 # 🌀叠甲
 {% note warning modern %}本文是作者二二年至今使用的方案，虽然现在才发，但其核心内容比较老了，虽然现在依旧能用，但不确保未来，主要是因为近期阿里的限制越来越多，不知道那天阿里云盘就不支持webdav了，请酌情阅读！！！{% endnote %}
-　　全文如果哪里有错误欢迎指出。本文只适用于~~闲着没事干~~热爱折腾的二刺螈爱好者，感觉麻烦完全可以打开樱花实现零费时追番
-　　欢迎转载，但希望告知，全文只在酷安和自己的博客有发
+      ***本文主要以思路讲解为主，由于作者实在是太懒了，再加上一楼一楼的原因，所以教程就不再详细写了，主要是引用外站的链接，侵删***（~~其实是站主太懒了~~），为了更好的资源下载环境，本文不会提供任何资源网站，请自己去找，磁力真找不到可以自备梯子，墙外找，总会有的。全文如果哪里有错误欢迎指出，感觉麻烦可以打开樱花实现零费时追番
+　　欢迎转载，但希望告知。
 　　下面，宁宁镇楼，正文开始:D 
 ![卡哇](https://vip.helloimg.com/i/2024/07/31/66a9c5779789a.jpg)
 {% folding green, 简单的原因 %}
@@ -65,7 +65,34 @@ pkg install alist
 <!-- endtab -->
 {% endtabs %}
 ### 网盘挂载到磁盘
-　　将网盘挂载到磁盘有助于我们日后的访问，并且也便于使用其他（不支持webdav）的播放器播放视频资源，这里推荐使用raidrive挂载为网络磁盘，虽然更改文件内容需要vip，但优点是访问速度快，支持的网盘和协议多，我们之后也可以使用它来查阅OneDrive的文件资源。
+      将网盘挂载到磁盘有助于我们日后的访问，并且也便于使用其他（不支持webdav）的播放器播放视频资源，这里推荐使用raidrive挂载为网络磁盘，虽然更改文件内容需要vip，但优点是访问速度快，支持的网盘和协议多，我们之后也可以使用它来查阅OneDrive的文件资源。
 {% link raidrive下载,https://www.raidrive.com/download,https://www.raidrive.com/images/RaiDrive.Logo.svg %}
 ![大体设置](https://s21.ax1x.com/2024/08/03/pkj4bPs.png)
+## 磁力
+### 前言
+      通过配置E5，我们可以使用OneDrive的5T容量，之后甚至可以升级至25T，对我们存动漫游戏等占量大的资源是非常有帮助的，之后通过rclone将OneDrive挂载至本地磁盘，这样我们可以直接将磁力下载至OneDrive，不占用本地磁盘空间，然后使用raidrive挂载成网络磁盘进行播放（rclone挂载的磁盘加载速度太慢了），熟悉流程之后的速度是非常快的。至于为什么要使用磁力，在需求二有讲。
+### 配置微软E5账号
+      详细的教程如下，注意一定要配置好自动续订，不然九十天之后账号就无了。
+{% link E5申请,https://blog.csdn.net/qq_43213941/article/details/130073512,https://img-home.csdnimg.cn/images/20201124032511.png %}
+{% link E5自动续订,https://blog.csdn.net/qq_33212020/article/details/114482595,https://img-home.csdnimg.cn/images/20201124032511.png %}
+### 安装rclone
+      通过rclone将OneDrive添加至本地网盘，教程如下：
+https://blog.csdn.net/diqiudq/article/details/122754919
+{% link reclone挂载OneDrive教程,https://blog.csdn.net/diqiudq/article/details/122754919,https://img-home.csdnimg.cn/images/20201124032511.png %}
+{% note warning modern %}注意：启动命令请改成这个，要删掉括号及里面的内容：rclone mount www:/(填的挂载名)  Q: (要挂载为的磁盘名)--cache-dir F:\OneDrive(缓存路径) --vfs-cache-mode writes{% endnote %}
+      完成后如下：
+![配置完成](https://s21.ax1x.com/2024/08/11/pApVOd1.png)
+### 将OneDrive挂载为网络磁盘
+      有两个方法：一是将OneDrive添加到alist，这样就不用再在raidrive添加网络磁盘；二是直接在raidrive添加。第二种可能快一点（大概）
+      都没什么好讲的，直接添加就行，建议第二种，因为比较简单，第一种可以看alist官方文档。注意raidrive添加时要选择OneDrive business，之后确认登陆完就可以用了。
+## 后记
+### 本地播放器推荐
+      个人认为比较好的有MPV,MPC-HC,VLC,Potplayer
+      这里强烈推荐**mpv**！！！！！！速度快，占存小，功能强，还开源。具体配置教程可以搜，这里就不详细说了，总是就是十分好用，相信我！！！！！！！！
+### 磁力下载器推荐
+      虽然吸血雷人人骂，但速度确实挺快的，但是个人建议不到万不得已尽量不要使用迅雷，这也是为了营造一个良好的磁力环境。
+      比较推荐的有BitComet,qBittorrent。
+### 最终实现效果
+      如果你看到了这里，你就可以实现如我所说的效果：大多数热门的番你可以使用阿里云盘保存，之后你可以在使用raidrive挂载的网络磁盘内用本地播放器播放；如果是比较冷门的番，或者是你有什么需求要使用磁力，你可以找到磁链，然后直接下载到使用rclone挂载的本地磁盘中，然后使用raidrive挂载的网络磁盘观看就可以了，完全不占用本地磁盘空间。
+      以上，就是对于我来说的完美方案。
 
