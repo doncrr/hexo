@@ -1,6 +1,6 @@
 ﻿---
 title: Markdown语法与外挂标签写法汇总
-description: 🥧本文汇总Markdown格式以及外挂标签在网页端的渲染效果，可作为文档进行查询
+description: 本文可作为文档进行查询
 mathjax: true
 tags:
   - Markdown

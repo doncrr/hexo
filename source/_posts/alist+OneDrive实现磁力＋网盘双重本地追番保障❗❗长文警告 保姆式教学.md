@@ -1,6 +1,6 @@
 ﻿---
 abbrlink: '0'
-title: alist+OneDrive实现“磁力＋网盘”实现双重高质量追番保障❗❗
+title: alist+OneDrive实现“磁力＋网盘”双重高质量追番保障❗❗
 mathjax: true
 tags:
   - 教程
