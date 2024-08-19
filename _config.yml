@@ -312,11 +312,11 @@ categoryBar:
   column: odd # odd：3列 | even：4列
   row: 1 #显示行数，默认两行，超过行数切换为滚动显示
   message:
-    - descr: 夹子音，在那里装可爱，好想吐🤢
-      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover1.webp
     - descr: 所以说你们二次元真恶心，嘻嘻😇
-      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover2.webp
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover1.webp
     - descr: 孩子不懂，乱捣鼓玩的
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover2.webp
+    - descr: 如题，超难听🤢
       cover: https://npm.elemecdn.com/akilar-candyassets/image/cover3.webp
     - descr: 想似了。。。。。
       cover: https://npm.elemecdn.com/akilar-candyassets/image/cover4.webp
