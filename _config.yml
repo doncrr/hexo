@@ -124,7 +124,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repo:  git@github.com:doncrr/doncrr.github.io.git
+    repo:  git@github.com:doncrr/www.doncr.icu.git
     branch: main
   # - type: baidu_url_submitter
   # - type: git
