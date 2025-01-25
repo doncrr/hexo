@@ -93,7 +93,7 @@ favicon:
 
 # Avatar (頭像)
 avatar:
-  img: /img/tx.jpg
+  img: https://www.helloimg.com/i/2025/01/22/679105830123c.jpg
   effect: false
 
 # Disable all banner image
@@ -527,13 +527,13 @@ tag_ui: # 留空或 index
 # "#e4f4f6" "#efefef"
 background:
   #【必选】默认背景 
-  default: url(https://krseoul.imgtbl.com/i/2024/07/11/668fc5672eedc.jpg)
+  default: url(https://www.helloimg.com/i/2025/01/22/6790fb26a9525.jpeg)
   #【可选】PC端夜间模式背景 
-  darkmode: url(https://krseoul.imgtbl.com/i/2024/07/11/668fc5672eedc.jpg)
+  darkmode: url(https://www.helloimg.com/i/2025/01/22/6790fb770d7f7.jpeg)
   #【可选】移动端日间默认背景 
-  mobileday: url(https://krseoul.imgtbl.com/i/2024/07/11/668fc5672eedc.jpg)
+  mobileday: url(https://www.helloimg.com/i/2025/01/22/6790fb26a9525.jpeg)
   #【可选】移动端夜间模式背景 
-  mobilenight: url(https://krseoul.imgtbl.com/i/2024/07/11/668fc5672eedc.jpg)
+  mobilenight: url(https://www.helloimg.com/i/2025/01/22/6790fb770d7f7.jpeg)
 
 # Footer Background
 footer_bg: false
@@ -1110,4 +1110,4 @@ index_card_style: multicard # slidecard | multicard
 
 # 灯笼开关 建议只在过年期间开启
 lantern:
-  enable: false
+  enable: true
