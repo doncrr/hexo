@@ -1,4 +1,4 @@
-/* 灯笼 Start */
+﻿/* 灯笼 Start */
 
 * {
     box-sizing: border-box;
@@ -51,11 +51,11 @@
 /* 修改灯笼的字体 */
 
 .d-box .d1::after {
-    content: '兔年大吉';
+    content: '蛇年大吉';
 }
 
 .d-box1 .d1::after {
-    content: '心想事成';
+    content: '嘶嘶顺利';
 }
 
 .d-box1 .d1,

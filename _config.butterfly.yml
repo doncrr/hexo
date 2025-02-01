@@ -135,15 +135,13 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - http://img.netbian.com/file/2024/0703/190552fnnMl.jpg
-    - http://img.netbian.com/file/2024/0618/234340olIRq.jpg
-    - http://img.netbian.com/file/2024/0604/23330590NyV.jpg
-    - http://img.netbian.com/file/2023/0514/170812dk8bi.jpg
-    - https://file.moyublog.com/d/file/2024-07-03/a1d82bd2c9d15517cf8750f2d9b01cfa.jpg
-    - https://file.moyublog.com/d/file/2024-06-06/5415d8b5b3079506f2c7e8d92abeb1f4.jpg
-    - https://file.moyublog.com/d/file/2024-06-03/c0671b38380d9f4280df7e186c278cb6.jpg
-    - https://file.moyublog.com/d/file/2024-04-20/4fe1fcb164ce6a975e1e8a9fa8c4e143.jpg
-    - https://file.moyublog.com/d/file/2024-04-26/97f38a322a3f3fc79f361000f14b5dc6.jpg
+    - https://s3.bmp.ovh/imgs/2025/01/25/39b5d2454cc58f43.jpg
+    - https://s3.bmp.ovh/imgs/2025/01/25/f05e5b7c3a4a437b.jpg
+    - https://s3.bmp.ovh/imgs/2025/01/25/ab8bab2eb0c27ac4.jpg
+    - https://s3.bmp.ovh/imgs/2025/01/25/0727a3a6b30d17a8.jpg
+    - https://s3.bmp.ovh/imgs/2025/01/25/ccbed9e94a7565ff.jpg
+    - https://s3.bmp.ovh/imgs/2025/01/25/5bef5945e3490da6.jpg
+    - https://s3.bmp.ovh/imgs/2025/01/25/7529d59581d1517c.png
     # ...
 
 # A simple 404 page
@@ -527,13 +525,13 @@ tag_ui: # 留空或 index
 # "#e4f4f6" "#efefef"
 background:
   #【必选】默认背景 
-  default: url(https://www.helloimg.com/i/2025/01/22/6790fb26a9525.jpeg)
+  default: url(https://s3.bmp.ovh/imgs/2025/01/25/b14c1887aff9ca26.jpeg)
   #【可选】PC端夜间模式背景 
-  darkmode: url(https://www.helloimg.com/i/2025/01/22/6790fb770d7f7.jpeg)
+  darkmode: url(https://s3.bmp.ovh/imgs/2025/01/25/b14c1887aff9ca26.jpeg)
   #【可选】移动端日间默认背景 
-  mobileday: url(https://www.helloimg.com/i/2025/01/22/6790fb26a9525.jpeg)
+  mobileday: url(https://s3.bmp.ovh/imgs/2025/01/25/b14c1887aff9ca26.jpeg)
   #【可选】移动端夜间模式背景 
-  mobilenight: url(https://www.helloimg.com/i/2025/01/22/6790fb770d7f7.jpeg)
+  mobilenight: url(https://s3.bmp.ovh/imgs/2025/01/25/b14c1887aff9ca26.jpeg)
 
 # Footer Background
 footer_bg: false
