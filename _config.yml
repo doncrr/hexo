@@ -18,7 +18,7 @@ abbrlink:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.doncr.icu/
+url: https://doncrr.girhub.io/
 permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
@@ -124,7 +124,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repo:  git@github.com:doncrr/www.doncr.icu.git
+    repo:  git@github.com:doncrr/doncrr.github.io.git
     branch: main
   # - type: baidu_url_submitter
   # - type: git
