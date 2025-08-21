@@ -3,6 +3,12 @@ title: 说说
 date: 2024-07-21 22:19:40
 comments: false
 ---
+
+{% note primary modern %}
+[说说原始界面](https://s.dusays.com/u/doncr)
+评论可于原网站上或此page末尾
+{% endnote %}
+
 <style>
 /* 页面初始化 */
 div#page {
