@@ -17,7 +17,7 @@ highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / 
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit: 230 # unit: px
+highlight_height_limit: 2500 # unit: px
 code_word_wrap: false
 
 # copy settings
@@ -80,11 +80,6 @@ local_search:
 #   per_page: false
 #   hide_scrollbar: true
 
-mathjax:
-  enable: true
-  per_page: false
-  cdn: https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-
 # Image (圖片設置)
 # --------------------------------------
 
@@ -93,7 +88,7 @@ favicon:
 
 # Avatar (頭像)
 avatar:
-  img: /assets/000.jpg
+  img: https://jsd-proxy.ygxz.in/gh/doncrr/hexo/source/assets/000.jpg
   effect: false
 
 # Disable all banner image
@@ -129,13 +124,14 @@ cover:
   # display the cover or not (是否顯示文章封面)
   index_enable: true
   aside_enable: true
-  archives_enable: true
+  archives_enable: ftrue
   # the position of cover in home page (封面顯示的位置)
   # left/right/both
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-
+    - https://source.fomal.cc/img/default_cover_14.webp
+    - https://source.fomal.cc/img/default_cover_15.webp
     # ...
 
 # A simple 404 page
@@ -143,7 +139,7 @@ error_404:
   enable: true
   subtitle: "此页面不存在哦٩͡[๏̯͡๏]"
   # https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
-  background: https://jsd-proxy.ygxz.in/gh/doncrr/hexo/source/assets/404_1.jpg
+  background: /assets/404_1.jpg
 
 post_meta:
   page: # Home Page
@@ -584,7 +580,7 @@ aside:
       link: https://github.com/doncrr
   card_announcement:
     enable: true
-    content: <center><b>米娜桑，扣你几把！！！！<br></center>这是Doncr的博客，随便发发文，发发颠。评论不想弄，因为我无人在意（笑），真想找我可以加QQ捏😋
+    content: <center><b>米娜桑，扣你几把！！！！<br></center>这里是Doncr的花里胡哨小破站，主要记录一下日常，写一些笔记，欢迎加煮波qq和煮波聊天!!!😆
   card_recent_post:
     enable: false
     limit: 3 # if set 0 will show all
@@ -769,10 +765,10 @@ pwa:
   enable: false
   manifest: /manifest.json
   theme_color: var(--theme-color)
-  apple_touch_icon: https://jsd-proxy.ygxz.in/gh/doncrr/hexo/source/assets/gulp/siteicon/128.png
-  favicon_32_32: https://jsd-proxy.ygxz.in/gh/doncrr/hexo/source/assets/gulp/siteicon/32.png
-  favicon_16_16: https://jsd-proxy.ygxz.in/gh/doncrr/hexo/source/assets/gulp/siteicon/16.png
-  mask_icon: https://jsd-proxy.ygxz.in/gh/doncrr/hexo/source/assets/gulp/siteicon/128.png
+  apple_touch_icon: /assets/gulp/siteicon/128.png
+  favicon_32_32: /assets/gulp/siteicon/32.png
+  favicon_16_16: /assets/gulp/siteicon/16.png
+  mask_icon: /assets/gulp/siteicon/128.png
 
 # Open graph meta tags
 # https://developers.facebook.com/docs/sharing/webmasters/
@@ -788,7 +784,6 @@ inject:
   head:
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"> # 常规css
     - <link rel="stylesheet" href="https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css"> # 引入组件库(f12)
-    - <link rel="stylesheet" href="https://jsd-proxy.ygxz.in/gh/doncrr/hexo/butterfly/source/css/_custom/css/_custom/custom.css">
     # 综合美化模块样式引入
     - <style id="themeColor"></style> # 主题色
     - <style id="rightSide"></style> # 侧边栏
@@ -887,8 +882,8 @@ CDN:
     # prismjs_js: https://cdn1.tianli0.top/npm/prismjs@1.1.0/prism.js
     # prismjs_lineNumber_js: https://cdn1.tianli0.top/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
     # prismjs_autoloader: https://cdn1.tianli0.top/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
-    coin_js: https://jsd-proxy.ygxz.in/gh/doncrr/hexo/source/js/coin.js
-    coin_css: https://jsd-proxy.ygxz.in/gh/doncrr/hexo/source/css/coin.css
+    coin_js: /js/coin.js
+    coin_css: /css/coin.css
 
 # wowjs动画特效
 # see https://www.npmjs.com/package/hexo-butterfly-wowjs
@@ -980,8 +975,8 @@ flink_style: volantis # butterfly | volantis | flexcard
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
-  flink: https://jsd-proxy.ygxz.in/gh/doncrr/hexo/source/assets/r1.jpg
-  post_page: https://jsd-proxy.ygxz.in/gh/doncrr/hexo/source/assets/r2.jpg
+  flink: /assets/r1.jpg
+  post_page: /assets/r2.jpg
 
 # 标签外挂
 # tag-plugins-plus
@@ -991,7 +986,7 @@ tag_plugins:
   priority: 5 #过滤器优先权
   issues: false #issues标签开关
   link:
-    placeholder: "https://jsd-proxy.ygxz.in/gh/doncrr/hexo/source/assets/coffee.png" #link_card标签默认的图标图片
+    placeholder: "/assets/coffee.png" #link_card标签默认的图标图片
   CDN:
     anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
     jquery: https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js #issues标签依赖

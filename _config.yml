@@ -5,9 +5,9 @@
 # Site
 title: My Exclusive Heaven
 subtitle: Doncrの博客
-description: '人生不如意事，十常局七八 '
+description: '人生不如意事，十常居七八 '
 keywords: 'Java,MySQL,算法,代码,博客,Butterfly,Hexo'
-author: Doncr
+author: 『Doncr』
 language: zh-CN
 timezone: ''
 
@@ -160,7 +160,7 @@ algolia:
 # hexo-butterfly-swiper
 # see https://akilar.top/posts/8e1264d1/
 swiper:
-  enable: true # 开关
+  enable: false # 开关
   priority: 1 #过滤器优先权
   enable_page: / # 应用页面
   timemode: date #date/updated
@@ -312,13 +312,13 @@ categoryBar:
   column: odd # odd：3列 | even：4列
   row: 1 #显示行数，默认两行，超过行数切换为滚动显示
   message:
-    - descr: 所以说你们二次元真恶心，嘻嘻😇
-      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover1.webp
-    - descr: 孩子不懂，乱捣鼓玩的
-      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover2.webp
     - descr: 如题，超难听🤢
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover1.webp
+    - descr: 一些乱七八糟的评论
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover2.webp
+    - descr: 孩子不懂，乱捣鼓玩的
       cover: https://npm.elemecdn.com/akilar-candyassets/image/cover3.webp
-    - descr: 想似了。。。。。
+    - descr: 向0个人汇报近况
       cover: https://npm.elemecdn.com/akilar-candyassets/image/cover4.webp
     - descr: 奋斗白天，我要上大专🤓
       cover: https://npm.elemecdn.com/akilar-candyassets/image/cover5.webp
