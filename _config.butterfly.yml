@@ -580,7 +580,7 @@ aside:
       link: https://github.com/doncrr
   card_announcement:
     enable: true
-    content: <center><b>米娜桑，扣你几把！！！！<br></center>这里是Doncr的花里胡哨小破站，主要记录一下日常，写一些笔记，欢迎加煮波qq和煮波聊天!!!😆
+    content: <center><b>新弄了一个域名，访问速度会更快，将其更替为主域名：http://blog.doncr.skin<br></center>哈喽，米娜桑o((>ω< ))o！这里是Doncr的花里胡哨小破站，主要记一下日常和笔记，欢迎加煮波好友和煮波聊天喵。
   card_recent_post:
     enable: false
     limit: 3 # if set 0 will show all
