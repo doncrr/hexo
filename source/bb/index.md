@@ -209,7 +209,7 @@ span.talk_tag{
 <div class="limit">- 只展示最近30条说说 -</div>
 <script>
 if(1) {
-    let url = 'http://192.168.10.9:8081/'
+    let url = 'http://memos.doncr.skin'
     fetch(url + '/api/v1/memos?creatorId=1&limit=30').then(res => res.json()).then(data => { // 注意修改域名和用户id
         let items = [],
             html = '',
